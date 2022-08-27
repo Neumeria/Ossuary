@@ -13,5 +13,5 @@ Pls Pls note:- You will notice there are 2 Quiz-Hangman Games (One is under "Qui
 
 - The "QHG.py" is the one that can run on its own on any IDE or terminal window (provided you have the extensions).
 
-- The "Quiz-Hangman Game.py" is the one that is meant to run on a local hosted server (for which I personally used xampp.) hence, why it has some additional lines
+- The "QuizHangmanGame.py" is the one that is meant to run on a local hosted server (for which I personally used xampp.) hence, why it has some additional lines
 of code and imports some additional functions such as tkinter.
