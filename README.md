@@ -9,7 +9,7 @@ If you choose to download and play, I sincerely hope you enjoy ^.^
 
 Pls note:- You will need the extra python extensions in the list to run the program as it uses some functions that belong to those extensions.
 
-Pls Pls note:- You will notice there are 2 Quiz-Hangman Games (One is under "Quiz-Hangman Game.py" and other is under the name "QHG.py").
+Pls Pls note:- You will notice there are 2 Quiz-Hangman Games (One is under "QuizHangmanGame.py" and other is under the name "QHG.py").
 
 - The "QHG.py" is the one that can run on its own on any IDE or terminal window (provided you have the extensions).
 
