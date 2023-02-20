@@ -2,4 +2,4 @@
 This is effectively my workshop where I test stuff out and/or just try to git gud at coding and website construction and pretty much anything and everything programming languages has to offer.
 I mostly make small games and websites for now, but I'm hoping with time and more experience I'll be able to do more than just this and increase my potential.
 
-You can visit my website here: https://neumeria.github.io/Ossuary/
+You can visit my (WIP) website here: https://neumeria.github.io/Ossuary/
