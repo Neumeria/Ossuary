@@ -1,6 +1,6 @@
 Patch 1.0.0:
 - Created a fresh HTML5 document and CSS stylesheet. 
-- Set up Bootstrap 5.0 using CDN (Content Delivery Network) link.
+- Set up Bootstrap 5.0.2 using CDN (Content Delivery Network) link.
 
 Patch 1.0.1:
 - Created a front page with title, small welcome message.
