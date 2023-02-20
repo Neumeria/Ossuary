@@ -1,0 +1,22 @@
+Patch 1.0.0 Initial Release:
+- Created fresh HTML5 document. 
+- Set up Bootstrap 5.0 using CDN (Content Delivery Network) link.
+
+Patch 1.0.1:
+- Created a front page with title, small welcome message.
+- Added colour, font and style to title and welcome message.
+- Added background colour and padding to the Welcome-Message section.
+
+Patch 1.0.2:
+- Added a gif of a bonfire to the Welcome-Message section with center alignment.
+- Implemented an web icon for the website to be displayed beside the website name.
+
+Patch 1.0.3:
+- Added background colour to the body section.
+- Removed the "container" keyword from Welcome-Message section so that it covers the entire website in width.
+- Added gradient to both Welcome-Message section and body section.
+- Hosted this website on github.com.
+- Created a "changelog" file to keep track of past changes made and future changes/plans to be done.
+
+Future plans:
+- Create a simple game to be implemented to the website.
