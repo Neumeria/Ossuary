@@ -1,0 +1,3 @@
+Day 1:
+Created and designed a SignUp/Login Page.
+Added a website icon.
