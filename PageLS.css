@@ -99,6 +99,9 @@ button:hover {
   color: #0256f2;
   transform: scale(.6);
 }
+.login input {
+  color: #000;
+}
 #checkbox:checked ~ .login {
   transform: translateY(-500px);
 }
