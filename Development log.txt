@@ -1,3 +1,10 @@
 Day 1:
 Created and designed a SignUp/Login Page.
 Added a website icon.
+
+Day 2:
+Changed background of the SignUp/Login Page.
+Made changes and updated the style of the SignUp/Login Page to better suit the new background.
+Login button now has it's own stylizations.
+Removed/Optimized some repeat and/or otherwise unnecessary code.
+Gathered Images for background slideshow.
