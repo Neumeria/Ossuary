@@ -16,7 +16,7 @@ body {
   width: 350px;
   height: 500px;
   overflow: hidden;
-  background-color: hsla(0, 0%, 0%, 0.3);
+  background-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000;
 }
@@ -42,7 +42,7 @@ label {
 input {
   width: 60%;
   height: 20px;
-  background-color: hsla(0, 0%, 0%, 0.1);
+  background-color: hsla(0, 0%, 0%, 0.5);
   color: #fff;
   font-style: italic;
   justify-content: center;

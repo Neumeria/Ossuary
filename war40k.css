@@ -16,27 +16,31 @@ body {
 label {
   color: #fff;
   font-size: 2.3em;
-  justify-content: center;
+  justify-content: left;
   display: flex;
-  margin: 60px;
   font-weight: bold;
   font-style: italic;
-  cursor: pointer;
   transition: .5s ease-in-out;
 }
-input {
-  width: 60%;
-  height: 20px;
-  background-color: hsla(0, 0%, 0%, 0.1);
+ul li {
   color: #fff;
   font-style: italic;
-  justify-content: center;
-  display: flex;
-  margin: 20px auto;
-  padding: 10px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
+  justify-content: left;
+}
+.main {
+  width: auto;
+  height: auto;
+  margin: 20px 20px auto;
+  padding: 25px 25px;
+  overflow: visible;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+.logo {
+  width: 250px;
+  height: 215px;
+  float: right;
 }
 .hidden {
   display: none;
@@ -48,6 +52,7 @@ input {
 button {
   position: relative;
   overflow: hidden;
+  float: right;
   width: 60%;
   height: 40px;
   margin: 10px auto;
@@ -72,78 +77,21 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 0 5px #0256f2, 0 0 25px #0256f2, 0 0 50px #0256f2, 0 0 100px #0256f2;
 }
-button span {
-  position: absolute;
-  display: block;
+#scrollBtn {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffffbf;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-button span:nth-child(1) {
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #0256f2);
-  animation: btn-anim1 1s linear infinite;
-}
-@keyframes btn-anim1 {
-  0% {
-      left: -100%;
-  }
-  50%,
-  100% {
-      left: 100%;
-  }
-}
-button span:nth-child(2) {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #0256f2);
-  animation: btn-anim2 1s linear infinite;
-  animation-delay: 0.25s;
-}
-@keyframes btn-anim2 {
-  0% {
-      top: -100%;
-  }
-  50%,
-  100% {
-      top: 100%;
-  }
-}
-button span:nth-child(3) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #0256f2);
-  animation: btn-anim3 1s linear infinite;
-  animation-delay: 0.5s;
-}
-@keyframes btn-anim3 {
-  0% {
-      right: -100%;
-  }
-  50%,
-  100% {
-      right: 100%;
-  }
-}
-button span:nth-child(4) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #0256f2);
-  animation: btn-anim4 1s linear infinite;
-  animation-delay: 0.75s;
-}
-@keyframes btn-anim4 {
-  0% {
-      bottom: -100%;
-  }
-  50%,
-  100% {
-      bottom: 100%;
-  }
+#scrollBtn:hover {
+  background: #ffffffbf;
+  border-radius: 50%;
+  box-shadow: 0 0 2.5px #ffffffbf, 0 0 12.5px #ffffffbf, 0 0 25px #ffffffbf, 0 0 50px #ffffffbf;
 }

@@ -9,3 +9,12 @@ Login button now has it's own stylizations.
 Removed/Optimized some repeat and/or otherwise unnecessary code.
 Gathered Images for background slideshow.
 Created a slideshow for background images.
+
+Day 3:
+Replaced two lower quality background images with two higher quality ones.
+Made minor adjustments to the transparency of the SignUp/Login Page.
+Added written material to war40k page.
+Added Chaos Rising logo to war40k page.
+Chaos Rising logo now has hyperlink setup to it's Steam Store page.
+Added scroll-to-Top button to war40k page. (Used JQuery for better browser support and animation quality.)
+scroll-to-Top button now fades in and out. (Fade effect could be better, need to work on this.)

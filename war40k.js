@@ -1,6 +1,6 @@
 const images = [
     'Assets/Images/bg1.jpg', 'Assets/Images/bg2.jpg', 'Assets/Images/bg3.jpg', 'Assets/Images/bg4.jpg',
-    'Assets/Images/bg5.jpg', 'Assets/Images/bg6.jpg', 'Assets/Images/bg7.jpg', 'Assets/Images/bg8.jpg'
+    'Assets/Images/bg5.jpg', 'Assets/Images/bg6.jpg', 'Assets/Images/bg7.png', 'Assets/Images/bg8.jpg'
 ];
 window.onload = () => {
     // preloading.
@@ -16,3 +16,13 @@ window.onload = () => {
         }
     }, 7000);
 }
+const scrollBtn = document.querySelector("#scrollBtn");
+window.onscroll = () => {
+    if(document.body.scrollTop > (window.innerHeight / 2) || document.documentElement.scrollTop > (window.innerHeight / 2)) {
+        $("#scrollBtn").fadeIn();
+      }
+    else $("#scrollBtn").fadeOut();
+};
+scrollBtn.addEventListener("click", event => {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+});
